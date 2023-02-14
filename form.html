@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center; align-items: center;">    
+            <img src="o.jpeg" height="200px">
+            
+            <div style="display: grid;">
+                <h2 style="text-align: center; text-decoration: none;">Kongu Engineering College<br>Perundurai<br>Erode-638060</h2>
+            </div>
+            
+            <img src="o2.png" style="float: right;" height="200px">
+        </div>
+        
+        <h1 style="text-align: center;">Student Registration Form</h1>
+        
+        <br>
+
+        <div style="justify-content: center; align-items: center; display: grid;">
+
+            <form>
+                <h2>General info:</h2>
+                
+                <br>
+                
+                <label for="name input">Name : </label>
+                <input class="name input" placeholder="First Name">
+                
+                <br><br>
+                
+                <label for="programme input">Programme : </label>
+                <select class="programme input">
+                    <option>select your programme</option>
+                    <option>BE</option>
+                    <option>B.Tech</option>
+                </select>
+                
+                <br><br>
+                
+                <label for="branch input">Branch : </label>
+                <select class="branch input">
+                    <option>select your branch</option>
+                    <option>CSE</option>
+                    <option>CSD</option>
+                    <option>IT</option>
+                    <option>AIML</option>
+                    <option>AIDS</option>
+                    <option>Mechatronics</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>EIE</option>
+                    <option>Mech</option>
+                    <option>Automobile</option>
+                    <option>Civil</option>
+                    <option>Chemical</option>
+                    <option>FT</option>
+                </select>
+        
+        <br><br>
+        
+        <label for="gender input">Gender : </label> <br>
+        <input class="gender input male" name="gender" type="radio" value="Male"> <label for="gender input male">Male</label> <br>
+        <input class="gender input female" name="gender" type="radio" value="Female"> <label for="gender input female">Female</label> <br>
+        <input class="gender input other" name="gender" type="radio" value="Other"> <label for="gender input other">Other</label> <br>
+        
+        <br><br>
+        
+        <h2>Personal info:</h2>
+        
+        <br>
+        
+        <label for="dob input">Date Of Birth : </label>
+        <input class="dob input" type="date">
+        
+        <br><br>
+        
+        <label for="phone input">Phone Number : </label>
+        <input class="phone input" type="tel">
+        
+        <br><br>
+        
+        <label for="email input">Email : </label>
+        <input class="email input" type="email">
+        
+        <br><br>
+        
+        <label for="address input">Address : </label>
+        <textarea class="address input"></textarea>
+        
+        <br><br>
+        
+        <input class="submit input" type="submit">
+        
+    </form>
+</div>
+    
+    <style>
+        body {
+            background-color: #05c598;
+        }
+
+        h1,h2 {
+            color: #508AA8;
+            font-family: system-ui;
+            text-decoration: underline double 2px;
+        }
+
+        input, select, textarea {
+            color: #fff;
+            background-color: #0f42c3;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+
+        label, input::placeholder {
+            color: #fff;
+            font-family: sans-serif;
+        }
+
+    </style>
+
+    </body>
+    </html>
